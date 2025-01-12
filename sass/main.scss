@@ -1,34 +1,25 @@
-/*
-colors
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-light green - #7ed56f
-medium green -#55c57a
-Dark green -#28b485
-
-
-*/
-@import "abstracts/_function.scss";
-@import "abstracts/_mixins.scss";
-@import "abstracts/_variables.scss";
-
-
-
-
-@import "base/_animation.scss";
+@import "base/animations";
 @import "base/base";
-@import "base/_typography.scss";
-@import "base/_utilities.scss";
+@import "base/typography";
+@import "base/utilities";
 
+@import "components/bg-video";
+@import "components/button";
 @import "components/card";
-@import "components/_button.scss";
-@import "components/_composition.scss";
+@import "components/composition";
 @import "components/feature-box";
+@import "components/form";
+@import "components/popup";
+@import "components/story";
 
-@import "layout/_header.scss";
-@import "layout/_grid.scss";
-@import "pages/_home.scss";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
 
-
-
-
+@import "pages/home";
 
